@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.view.MainScreenController">
+   <children>
+      <Label id="lbMainTitle" fx:id="lbMainTitle" alignment="CENTER" layoutX="123.0" layoutY="69.0" text="The Crazy Circle Game">
+         <font>
+            <Font name="Harlow Solid Italic" size="38.0" />
+         </font>
+      </Label>
+      <Label id="lbPressStart" fx:id="lbPressStart" alignment="CENTER" layoutX="236.0" layoutY="217.0" text="Press Start">
+         <font>
+            <Font name="Gentium Basic Italic" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
